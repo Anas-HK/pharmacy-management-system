@@ -1,0 +1,7 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Claude session notes (kept local, not part of the project deliverables)
+.claude/

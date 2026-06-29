@@ -1,0 +1,11 @@
+# Running the application needs ONLY the Python standard library
+# (tkinter and sqlite3 are bundled with Python). No install required.
+#
+# The packages below are needed only if you want to REGENERATE the
+# ERD image and the Word report from source:
+#
+#   python generate_erd.py        -> needs matplotlib
+#   python generate_report.py     -> needs python-docx
+#
+python-docx>=1.1.0
+matplotlib>=3.7.0
